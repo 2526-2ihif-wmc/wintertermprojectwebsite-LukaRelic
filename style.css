@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "CoolFont";
+    src: url("fonts/BabyBison-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f3d3a1;
+    font-family: "CoolFont", sans-serif;
+    font-size: 1.3em;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
