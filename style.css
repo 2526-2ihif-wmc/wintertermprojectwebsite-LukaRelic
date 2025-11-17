@@ -8,10 +8,22 @@
 body {
     background-color: #f3d3a1;
     font-family: "CoolFont", sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .card img {
     height: 200px;
     object-fit: cover;
+}
+
+.headerLink {
+    font-size: 1.3em;
+    transition: 0.6s;
+}
+
+.headerLink:hover {
+    background-color: #d5bb98;
+    border-radius: 8px;
+    padding: 0.3em;
+    margin: 0.3em;
 }

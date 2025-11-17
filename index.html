@@ -10,33 +10,83 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary px-4">
-        <a class="navbar-brand" href="#">🍪 Cookies</a>
+        <h1 style="padding-top: 0.2em;">🍪 Cookies</h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Recipes</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link headerLink" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link headerLink" href="#information">Information</a></li>
+                <li class="nav-item"><a class="nav-link headerLink" href="#recipes">Recipes</a></li>
+                <li class="nav-item"><a class="nav-link headerLink" href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <img src="images/ChocolateChip.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title">Chocolate Chip</h3>
-                        <p class="card-text">Classic and gooey.</p>
-                        <button class="btn btn-dark">Recipe</button>
-                    </div>
+    <section id="home" class="py-5 text-center">
+        <div class="container">
+            <h2 class="display-1 fw-bold mb-3">Welcome to Cookie Heaven 🍪</h2>
+            <p class="fs-3 lead">Soft, crunchy, chocolatey or even sour! Find your ✨perfect✨ cookie.</p>
+            <button class="btn btn-dark btn-lg fs-3 mt-3"><a id="#recipes">Browse Recipes</a></button>
+        </div>
+    </section>
+
+    <section id="information" class="py-5 bg-warning bg-opacity-25">
+        <div class="container">
+            <h1 class="text-center display-3 mb-5">About Cookies</h1>
+
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-8">
+                    <h3 class="display-5 mb-3">What is a cookie?</h3>
+                    <p class="fs-3 text-muted">
+                        Cookies are baked sweets made mostly from flour, sugar, and fat (usually butter). They come in a huge range of textures,
+                        from soft and chewy to crispy and crunchy, depending on ingredients and baking time.
+                    </p>
                 </div>
             </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h3 class="display-5 mb-3">The story of cookies</h3>
+                    <p class="fs-3 text-muted">
+                        Cookies started in 7th-century Persia, where sugar was first widely used. As trade grew, the idea spread to Europe by the Middle Ages,
+                        where cookies became popular because they stayed fresh and were easy to carry on long trips. In the 1600s, Dutch settlers brought cookies to North America,
+                        where the name evolved from the Dutch word <em>koekje</em> (“little cake”). By the 19th and 20th centuries, improved ovens and ingredients helped create
+                        the modern cookie styles we know today. Finally, in the 1930s, the invention of the chocolate chip cookie kicked off the era of creative cookie
+                        variations and mass-produced favorites.
+                    </p>
+                </div>
+            </div>
+
         </div>
-    </div>
+    </section>
+
+    <section id="recipes" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Popular Recipes 🍪</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow rounded-4">
+                        <img src="images/ChocolateChip.jpg" alt="Chocolate Chip Cookie" class="card-img-top" style="height: 250px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Chocolate Chip</h5>
+                            <p class="card-text">Classic and gooey.</p>
+                            <button class="btn btn-dark">View Recipe</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more cards here later -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Contact</h2>
+            <p class="text-muted fs-5">Questions, requests, recipe ideas? Let me know!</p>
+        </div>
+    </section>
 </body>
 </html>
