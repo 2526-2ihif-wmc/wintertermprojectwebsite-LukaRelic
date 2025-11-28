@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f3d3a1;
+    background-color: #ece1ca;
     font-family: "CoolFont", sans-serif;
     font-size: 1.5em;
 }
@@ -24,4 +24,35 @@ body {
 .headerLink:hover {
     background-color: #d5bb98;
     border-radius: 8px;
+}
+
+.card-with-hole {
+    position: relative;
+    background-color: #dfd1ba;
+    padding-left: 7rem;
+    width: 70%;
+    height: 30%;
+    left: 10%;
+}
+
+.card-with-hole::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 350px;
+    height: 350px;
+    background-color: #ece1ca;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(-20%);
+}
+
+.card-with-hole img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(-40%);
 }
