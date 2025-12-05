@@ -81,3 +81,7 @@ body {
 .dropdown-section:hover .dropdown-content2 {
     max-height: 21rem;
 }
+
+#recipesBg {
+    background-color: #f1e6d9;
+}
