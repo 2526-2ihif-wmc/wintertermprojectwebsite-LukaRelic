@@ -63,3 +63,17 @@ body {
     width: 25%;
     height: auto;
 }
+
+.dropdown-section {
+    margin-bottom: 2rem;
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.3s ease;
+}
+
+.dropdown-section:hover .dropdown-content {
+    max-height: 8rem;
+}
