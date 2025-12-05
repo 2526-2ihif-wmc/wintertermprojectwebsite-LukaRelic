@@ -68,12 +68,16 @@ body {
     margin-bottom: 2rem;
 }
 
-.dropdown-content {
+.dropdown-content1, .dropdown-content2 {
     max-height: 0;
     overflow: hidden;
     transition: max-height 1.3s ease;
 }
 
-.dropdown-section:hover .dropdown-content {
-    max-height: 8rem;
+.dropdown-section:hover .dropdown-content1 {
+    max-height: 10rem;
+}
+
+.dropdown-section:hover .dropdown-content2 {
+    max-height: 21rem;
 }
