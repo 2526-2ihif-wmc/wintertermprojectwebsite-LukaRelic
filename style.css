@@ -69,17 +69,20 @@ body {
 }
 
 .dropdown-content1, .dropdown-content2 {
-    max-height: 0;
+    max-height: 2.5rem;
     overflow: hidden;
     transition: max-height 1.3s ease;
+    opacity: 30%;
 }
 
 .dropdown-section:hover .dropdown-content1 {
     max-height: 10rem;
+    opacity: 100%;
 }
 
 .dropdown-section:hover .dropdown-content2 {
     max-height: 21rem;
+    opacity: 100%;
 }
 
 #recipesBg {
