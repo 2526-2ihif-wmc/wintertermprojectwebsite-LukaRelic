@@ -34,7 +34,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold fs-1">Chocolate Chip</h5>
                             <p class="card-text fs-4">Classic and mushy.</p>
-                            <button class="btn btn-dark fs-5">View Recipe</button>
+                            <button type="button"  class="btn btn-primary btn-dark fs-5" data-bs-toggle="modal" data-bs-target="#recipeModal">View Recipe</button>
                         </div>
                     </div>
                 </div>
@@ -92,6 +92,38 @@
                             <h5 class="card-title fw-bold fs-1">Raspberry Thumbprint</h5>
                             <p class="card-text fs-4">Sweet and pretty.</p>
                             <button class="btn btn-dark fs-5">View Recipe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="recipeModal" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">Chocolate Chip Cookies</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>Flour</li>
+                                <li>Sugar</li>
+                                <li>Butter</li>
+                                <li>Chocolate chips</li>
+                            </ul>
+
+                            <h3>Steps</h3>
+                            <ol>
+                                <li>Mix ingredients</li>
+                                <li>Bake at 180°C</li>
+                                <li>Eat</li>
+                            </ol>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary fs-4" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
