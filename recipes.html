@@ -45,7 +45,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold fs-1">Peanut Butter</h5>
                             <p class="card-text fs-4">Chewy and sweet.</p>
-                            <button class="btn btn-dark fs-5">View Recipe</button>
+                            <button class="btn btn-dark fs-5" data-bs-toggle="modal" data-bs-target="#peanutModal">View Recipe</button>
                         </div>
                     </div>
                 </div>
@@ -107,23 +107,446 @@
 
                         <div class="modal-body">
                             <h3>Ingredients</h3>
-                            <ul>
-                                <li>Flour</li>
-                                <li>Sugar</li>
-                                <li>Butter</li>
-                                <li>Chocolate chips</li>
+                            <ul class="list-unstyled text-muted mb-lg-4">
+                                <li>225 g butter (soft, room temperature)</li>
+                                <li>200 g sugar</li>
+                                <li>2 eggs</li>
+                                <li>1 tsp vanilla extract</li>
+                                <li>300 g wheat flour</li>
+                                <li>1 tsp baking soda</li>
+                                <li>½ tsp salt</li>
+                                <li>200 g chocolate chips</li>
                             </ul>
 
                             <h3>Steps</h3>
-                            <ol>
-                                <li>Mix ingredients</li>
-                                <li>Bake at 180°C</li>
-                                <li>Eat</li>
+                            <ol class="text-muted">
+                                <li>
+                                    Preheat the oven to 180°C (top/bottom heat).
+                                    Line a baking tray with baking paper.
+                                </li>
+
+                                <li>
+                                    Put the soft butter and sugar into a large bowl and mix until the
+                                    mixture is light and creamy.
+                                </li>
+
+                                <li>
+                                    Add the eggs one at a time, mixing well after each egg.
+                                    Then add the vanilla extract.
+                                </li>
+
+                                <li>
+                                    In a separate bowl, mix the flour, baking soda, and salt together.
+                                </li>
+
+                                <li>
+                                    Slowly add the dry ingredients to the butter mixture and mix until
+                                    a smooth dough forms. Do not overmix.
+                                </li>
+
+                                <li>
+                                    Gently fold the chocolate chips into the dough using a spoon.
+                                </li>
+
+                                <li>
+                                    Scoop small portions of dough and place them on the baking tray,
+                                    leaving space between each cookie.
+                                </li>
+
+                                <li>
+                                    Bake for 10–12 minutes, until the edges are lightly
+                                    golden but the centers are still soft.
+                                </li>
+
+                                <li>
+                                    Let the cookies cool on the tray for a few minutes, then transfer
+                                    them to a wire rack to cool completely.
+                                </li>
                             </ol>
                         </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary fs-4" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-dark fs-4" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="peanutModal" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">Peanut Butter Cookies</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h3>Ingredients</h3>
+                            <ul class="list-unstyled text-muted mb-lg-4">
+                                <li>200 g peanut butter (creamy)</li>
+                                <li>150 g sugar</li>
+                                <li>1 egg</li>
+                                <li>1 tsp vanilla extract</li>
+                                <li>½ tsp baking soda</li>
+                                <li>Pinch of salt</li>
+                            </ul>
+
+                            <h3>Steps</h3>
+                            <ol class="text-muted">
+                                <li>
+                                    Preheat the oven to 180°C (top/bottom heat).
+                                    Line a baking tray with baking paper.
+                                </li>
+
+                                <li>
+                                    Put the peanut butter and sugar into a bowl and mix until smooth
+                                    and well combined.
+                                </li>
+
+                                <li>
+                                    Add the egg and vanilla extract, then mix until a thick, even dough
+                                    forms.
+                                </li>
+
+                                <li>
+                                    Add the baking soda and salt and mix briefly to combine.
+                                </li>
+
+                                <li>
+                                    Roll the dough into small balls and place them on the baking tray,
+                                    leaving space between each cookie.
+                                </li>
+
+                                <li>
+                                    Flatten each dough ball slightly using a fork to create a crisscross
+                                    pattern on top.
+                                </li>
+
+                                <li>
+                                    Bake for 8–10 minutes, until the edges are set but
+                                    the centers are still soft.
+                                </li>
+
+                                <li>
+                                    Remove from the oven and let the cookies cool on the tray for a few
+                                    minutes before transferring them to a wire rack.
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark fs-4" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="vanillaModal" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">Vanilla Crescent Cookies</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h3>Ingredients</h3>
+                            <ul class="list-unstyled text-muted mb-lg-4">
+                                <li>250 g wheat flour</li>
+                                <li>200 g butter (cold, cut into small pieces)</li>
+                                <li>100 g ground almonds</li>
+                                <li>80 g powdered sugar</li>
+                                <li>1 tsp vanilla sugar</li>
+                                <li>Extra powdered sugar for coating</li>
+                            </ul>
+
+                            <h3>Steps</h3>
+                            <ol class="text-muted">
+                                <li>
+                                    Preheat the oven to 170 °C (top/bottom heat).
+                                    Line a baking tray with baking paper.
+                                </li>
+
+                                <li>
+                                    Put the flour, ground almonds, powdered sugar, and vanilla sugar
+                                    into a large bowl and mix briefly.
+                                </li>
+
+                                <li>
+                                    Add the cold butter pieces and knead everything together quickly
+                                    until a smooth dough forms. Do not overwork the dough.
+                                </li>
+
+                                <li>
+                                    Take small portions of dough and roll them into thin logs.
+                                    Shape each log into a crescent.
+                                </li>
+
+                                <li>
+                                    Place the crescents on the baking tray, leaving a little space
+                                    between each cookie.
+                                </li>
+
+                                <li>
+                                    Bake for 12–15 minutes, until the cookies are set but still pale
+                                    and not browned.
+                                </li>
+
+                                <li>
+                                    Let the cookies cool for 1–2 minutes, then carefully roll them
+                                    in powdered sugar while they are still warm.
+                                </li>
+
+                                <li>
+                                    Allow the cookies to cool completely before serving or storing.
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark fs-4" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="sandwichModal" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">Sandwich Cookies</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h3>Ingredients</h3>
+                            <ul class="list-unstyled text-muted mb-lg-4">
+                                <li>200 g butter (soft, room temperature)</li>
+                                <li>150 g sugar</li>
+                                <li>1 egg</li>
+                                <li>1 tsp vanilla extract</li>
+                                <li>300 g wheat flour</li>
+                                <li>½ tsp baking powder</li>
+                                <li>Pinch of salt</li>
+                            </ul>
+
+                            <h4>Filling</h4>
+                            <ul class="list-unstyled text-muted mb-lg-4">
+                                <li>100 g butter (soft)</li>
+                                <li>150 g powdered sugar</li>
+                                <li>1 tsp vanilla extract</li>
+                            </ul>
+
+                            <h3>Steps</h3>
+                            <ol class="text-muted">
+                                <li>
+                                    Preheat the oven to 180 °C (top/bottom heat).
+                                    Line a baking tray with baking paper.
+                                </li>
+
+                                <li>
+                                    Put the soft butter and sugar into a bowl and mix until light and
+                                    creamy.
+                                </li>
+
+                                <li>
+                                    Add the egg and vanilla extract and mix until well combined.
+                                </li>
+
+                                <li>
+                                    In a separate bowl, mix the flour, baking powder, and salt together.
+                                </li>
+
+                                <li>
+                                    Gradually add the dry ingredients to the butter mixture and mix
+                                    until a smooth dough forms.
+                                </li>
+
+                                <li>
+                                    Roll out the dough on a lightly floured surface to about 3–4 mm
+                                    thickness and cut out small circles.
+                                </li>
+
+                                <li>
+                                    Place the cookies on the baking tray and bake for 8–10 minutes,
+                                    until lightly golden at the edges.
+                                </li>
+
+                                <li>
+                                    Let the cookies cool completely before filling.
+                                </li>
+
+                                <li>
+                                    For the filling, beat the soft butter with powdered sugar and
+                                    vanilla extract until smooth and creamy.
+                                </li>
+
+                                <li>
+                                    Spread a small amount of filling onto the flat side of one cookie
+                                    and place another cookie on top to form a sandwich.
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark fs-4" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="lemonModal" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">Glazed Lemon Cookies</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h3>Ingredients</h3>
+                            <ul class="list-unstyled text-muted mb-lg-4">
+                                <li>150 g butter (soft, room temperature)</li>
+                                <li>180 g sugar</li>
+                                <li>1 egg</li>
+                                <li>Zest of 1 lemon</li>
+                                <li>2 tbsp lemon juice</li>
+                                <li>280 g wheat flour</li>
+                                <li>1 tsp baking powder</li>
+                                <li>Pinch of salt</li>
+                            </ul>
+
+                            <h4>Glaze</h4>
+                            <ul class="list-unstyled text-muted mb-lg-4">
+                                <li>150 g powdered sugar</li>
+                                <li>2–3 tbsp lemon juice</li>
+                            </ul>
+
+                            <h3>Steps</h3>
+                            <ol class="text-muted">
+                                <li>
+                                    Preheat the oven to 180 °C (top/bottom heat).
+                                    Line a baking tray with baking paper.
+                                </li>
+
+                                <li>
+                                    Put the soft butter and sugar into a bowl and mix until light and
+                                    creamy.
+                                </li>
+
+                                <li>
+                                    Add the egg, lemon zest, and lemon juice and mix until well
+                                    combined.
+                                </li>
+
+                                <li>
+                                    In a separate bowl, mix the flour, baking powder, and salt together.
+                                </li>
+
+                                <li>
+                                    Gradually add the dry ingredients to the butter mixture and mix
+                                    until a smooth dough forms.
+                                </li>
+
+                                <li>
+                                    Scoop small portions of dough and place them on the baking tray,
+                                    leaving space between each cookie.
+                                </li>
+
+                                <li>
+                                    Bake for 10–12 minutes, until the edges are lightly golden.
+                                </li>
+
+                                <li>
+                                    Let the cookies cool completely before glazing.
+                                </li>
+
+                                <li>
+                                    For the glaze, mix the powdered sugar with lemon juice until smooth.
+                                </li>
+
+                                <li>
+                                    Drizzle the glaze over the cooled cookies and allow it to set
+                                    before serving.
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark fs-4" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="raspModal" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">Raspberry Thumbprint Cookies</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h3>Ingredients</h3>
+                            <ul class="list-unstyled text-muted mb-lg-4">
+                                <li>200 g butter (soft, room temperature)</li>
+                                <li>120 g sugar</li>
+                                <li>1 egg yolk</li>
+                                <li>1 tsp vanilla extract</li>
+                                <li>280 g wheat flour</li>
+                                <li>Pinch of salt</li>
+                                <li>Raspberry jam</li>
+                            </ul>
+
+                            <h3>Steps</h3>
+                            <ol class="text-muted">
+                                <li>
+                                    Preheat the oven to 180 °C (top/bottom heat).
+                                    Line a baking tray with baking paper.
+                                </li>
+
+                                <li>
+                                    Put the soft butter and sugar into a bowl and mix until light and
+                                    creamy.
+                                </li>
+
+                                <li>
+                                    Add the egg yolk and vanilla extract and mix until well combined.
+                                </li>
+
+                                <li>
+                                    Add the flour and salt and mix until a smooth dough forms.
+                                </li>
+
+                                <li>
+                                    Roll the dough into small balls and place them on the baking tray,
+                                    leaving space between each cookie.
+                                </li>
+
+                                <li>
+                                    Use your thumb or the back of a spoon to press a small indentation
+                                    into the center of each cookie.
+                                </li>
+
+                                <li>
+                                    Fill each indentation with a small amount of raspberry jam.
+                                </li>
+
+                                <li>
+                                    Bake for 12–14 minutes, until the cookies are lightly golden at the
+                                    edges.
+                                </li>
+
+                                <li>
+                                    Let the cookies cool on the tray for a few minutes, then transfer
+                                    them to a wire rack to cool completely.
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark fs-4" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
