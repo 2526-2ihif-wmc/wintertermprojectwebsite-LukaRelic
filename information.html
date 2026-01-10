@@ -24,54 +24,79 @@
             </ul>
         </div>
     </nav>
-    <section class="py-5 bg-warning-subtle">
+
+    <section class="py-5">
         <div class="container">
             <h2 class="text-center display-2 mb-5">About Cookies 🍪</h2>
 
-            <div class="row justify-content-center mb-4">
-                <div class="col-md-8">
-                    <div class="dropdown-section">
-                        <h3 class="display-5 mb-3">What is a cookie?</h3>
-                        <div class="dropdown-content1">
-                            <p class="fs-3 text-muted">
-                                Cookies are baked sweets made mostly from flour, sugar, and fat (usually butter). They come in a huge range of textures,
-                                from soft and chewy to crispy and crunchy, depending on ingredients and baking time.
-                            </p>
-                        </div>
-                    </div>
+            <div id="cookieCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="hover">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#cookieCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#cookieCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#cookieCarousel" data-bs-slide-to="2"></button>
                 </div>
-            </div>
 
-            <div class="row justify-content-center mb-4">
-                <div class="col-md-8">
-                    <div class="dropdown-section">
-                        <h3 class="display-5 mb-3">The story of cookies</h3>
-                        <div class="dropdown-content2">
-                            <p class="fs-3 text-muted">
-                                Cookies started in 7th-century Persia, where sugar was first widely used. As trade grew, the idea spread to Europe by the Middle Ages,
-                                where cookies became popular because they stayed fresh and were easy to carry on long trips. In the 1600s, Dutch settlers brought cookies to North America,
-                                where the name evolved from the Dutch word <em>koekje</em> (“little cake”). By the 19th and 20th centuries, improved ovens and ingredients helped create
-                                the modern cookie styles we know today. Finally, in the 1930s, the invention of the chocolate chip cookie kicked off the era of creative cookie
-                                variations and mass-produced favorites.
-                            </p>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-md-8">
+                                <div class="dropdown-section">
+                                    <h3 class="display-5 mb-3">What is a cookie?</h3>
+                                    <div class="dropdown-content1">
+                                        <p class="fs-3 text-muted">
+                                            Cookies are baked sweets made mostly from flour, sugar, and fat (usually butter). They come in a huge range of textures,
+                                            from soft and chewy to crispy and crunchy, depending on ingredients and baking time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="row justify-content-center mb-4">
-                <div class="col-md-8">
-                    <div class="dropdown-section">
-                        <h3 class="display-5 mb-3">Why do I like them?</h3>
-                        <div class="dropdown-content1">
-                            <p class="fs-3 text-muted">
-                                I actually don't often eat cookies, not at all! But when I do, I really like the crunchiness
-                                of the caramelized dough, but also the softness of some other types of cookies, it really varies!
-                                And I have a thing for sweet stuff, though I try to hold myself back, so of course I like sweet cookies the most!
-                            </p>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-md-8">
+                                <div class="dropdown-section">
+                                    <h3 class="display-5 mb-3">The story of cookies</h3>
+                                    <div class="dropdown-content2">
+                                        <p class="fs-3 text-muted">
+                                            Cookies started in 7th-century Persia, where sugar was first widely used. As trade grew, the idea spread to Europe by the Middle Ages,
+                                            where cookies became popular because they stayed fresh and were easy to carry on long trips. In the 1600s, Dutch settlers brought cookies to North America,
+                                            where the name evolved from the Dutch word <em>koekje</em> (“little cake”). By the 19th and 20th centuries, improved ovens and ingredients helped create
+                                            the modern cookie styles we know today. Finally, in the 1930s, the invention of the chocolate chip cookie kicked off the era of creative cookie
+                                            variations and mass-produced favorites.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-md-8">
+                                <div class="dropdown-section">
+                                    <h3 class="display-5 mb-3">Why do I like them?</h3>
+                                    <div class="dropdown-content1">
+                                        <p class="fs-3 text-muted">
+                                            I actually don't often eat cookies, not at all! But when I do, I really like the crunchiness
+                                            of the caramelized dough, but also the softness of some other types of cookies, it really varies!
+                                            And I have a thing for sweet stuff, though I try to hold myself back, so of course I like sweet cookies the most!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#cookieCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#cookieCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
         </div>
     </section>

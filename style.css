@@ -86,5 +86,5 @@ body {
 }
 
 #recipesBg {
-    background-color: #f1e6d9;
+    background: linear-gradient(#f1e6d9, #f3efea);
 }
