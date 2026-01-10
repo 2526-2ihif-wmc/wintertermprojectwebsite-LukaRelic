@@ -88,3 +88,18 @@ body {
 #recipesBg {
     background: linear-gradient(#f1e6d9, #f3efea);
 }
+
+#rotatingCookie {
+    display: inline-block;
+    animation: rotating 5s linear infinite;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
