@@ -12,6 +12,14 @@ body {
     margin: 0;
 }
 
+#contactBg {
+    background: linear-gradient(#efcfa5, #dfd7c6);
+}
+
+#recipesBg {
+    background: linear-gradient(#f8e4c5, #ffffff);
+}
+
 .card img {
     height: 200px;
     object-fit: cover;
@@ -91,10 +99,6 @@ body {
 
 .card:hover, h2:hover, h1:hover {
     transform: scale(1.05);
-}
-
-#recipesBg {
-    background: linear-gradient(#f1e6d9, #f3efea);
 }
 
 #rotatingCookie {
